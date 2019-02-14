@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>¡Feliz día princesa hermosa!</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <script type="text/javascript">
+
+        var audios = new Array();
+
+          function rep(elaudio){
+
+                  audios=document.getElementsByTagName('audio');
+                  var i;
+                      for (i=0; i<audios.length; i++) {
+                          if (audios[i].id==elaudio){
+                                 audios[i].load();
+                                 audios[i].play();
+
+                          }   else{
+																  audios[i].load();
+                                //  audios[i].play();
+																	audios[i].pause();
+
+                              }
+                      }
+
+          }
+
+					window.onload = function(){
+						 playPause();
+					}
+
+
+      </script>
+
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Para la mujer más increíble de todos los tiempos</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#"></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"></i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">¡Feliz día mi vida!</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Una historia que comenzó con una casualidad, la cual nos llevó a grandes experiencias juntos...</h5>
+        </div>
+        <div class="row center">
+        	<audio preload="auto" id="c1" >
+
+          <source src="cada vez.mp3" type="audio/mp3"/>
+
+          </audio>
+          <a id="download-button" class="btn-large waves-effect waves-light teal lighten-1" 
+          onclick="rep('c1')">Apachúrrame :3</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="lobos.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Energía infinita</h5>
+
+            <p class="light">Nuestra sinergia rompe con todo. Nada puede ni podrá detenernos nunca. Dos mundos que colisionan liberando todo su poder</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Nuestra clave: Equipo</h5>
+
+            <p class="light">Porque más allá del amor, existe la colaboración. Mi compañera de grandes batallas que lucha a brazo partido y nunca se rinde.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Un mecanísmo perfecto.</h5>
+
+            <p class="light">Dos engranes que embonan a la perfección. Trabajando en sincronía entregando los mejores resultados. Trabajo duro para cambiar el mundo.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Dualidad pura, capturada en un instante.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="dualidad.gif" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>"Miles de almas esperan ese llamado, de esa persona. Solo el 1% lo recibirá. Los demás sepan que el destino les preparo algo mejor,que no esperaban."</h4>
+          <p class="left-align light">No ser parte de ese 1% es lo mejor que me pudo pasar, porque en efecto, el destino me preparó la mejor de sus sorpresas.Algo único e inquebrantable, un amor para la vida, algo que se fortalece con el pasar de las hojas del calendario, algo para disfrutar en este instante llamado vida. Te amo mushashona, con todas las células de mi cuerpo.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light black">Preparándonos para llegar a ese gran día, el deseo se incrementa a cada paso...</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="boda.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">a cada paso...</h5>
+          <p class="grey-text text-lighten-4">como enseñarle a un niño a caminar, ahí estaré. Como un maestro al instruir a su alumnado, ahí estaré. Como un guerrero defendiendo tus ideales, ahí estaré. Ten la certeza de que como tu compañía eterna estaré para ti... a cada paso. Te amo! </p>
+
+
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Hecho por <a class="brown-text text-lighten-3" href="http://materializecss.com">Tuyo siempre</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
